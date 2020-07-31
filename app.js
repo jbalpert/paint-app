@@ -2,6 +2,7 @@ window.addEventListener('load', ()=>{
     const canvas = document.querySelector('#draw');
     const ctx = canvas.getContext('2d');
 
+    const main = document.getElementsByTagName("main");
     const clearButton = document.querySelector('.clear');
     const fillBackground = document.querySelector('.paintBucket');
     const color = document.querySelector('.color');
