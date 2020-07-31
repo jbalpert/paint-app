@@ -37,8 +37,8 @@ window.addEventListener('load', ()=>{
       }, 100);
 
     function resize(){
-        canvas.height = window.innerHeight;
-        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight * .9;
+        canvas.width = window.innerWidth * .9;
     }
     
     function startPosition(e){
