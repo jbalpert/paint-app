@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Paint</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <canvas id="draw"></canvas>
+    <main>
+        <section class="tools">
+            <input type="color" class="color"></input>
+            <input type="range" class="size"></input>
+            <button class="btn paintBucket"></button>
+            <button class="btn clear">Clear</button>
+        </section>
+        <section class="r-color">
+            <div id="red" class="recent-color"></div>
+            <div id="orange" class="recent-color"></div>
+            <div id="yellow" class="recent-color"></div>
+            <div id="green" class="recent-color"></div>
+            <div id="blue" class="recent-color"></div>
+            <div id="violet" class="recent-color"></div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
